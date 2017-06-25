@@ -1,0 +1,57 @@
+$text-input-highlight-color-valid:       color($colors, secondary);
+$text-input-highlight-color-invalid:     color($colors, danger);
+$text-input-placeholder-color:           color($colors, light) !default;
+
+.ios,
+.md,
+.wp {
+  .list .item .item-inner { border: none; }
+  .list-ios > .item-block:first-child {
+    border-top: 1px solid adjust-color(color($colors, primary),  $lightness: 15%)
+  }
+  .list-ios > .item-block:last-child {
+    border-bottom: 1px solid adjust-color(color($colors, primary),  $lightness: 15%)
+  }
+
+
+  .item {
+    background: transparent;
+
+    border-bottom: 1px solid adjust-color(color($colors, primary),  $lightness: 15%);
+    border-top: 1px solid adjust-color(color($colors, primary),  $lightness: 15%);
+
+    color: color($colors, light);
+    cursor: pointer;
+
+    font-size: 2rem;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+  .item:first-child,
+  .item:not(:first-child) { border-bottom: none }
+  .item:last-child {
+    border-bottom: 1px solid adjust-color(color($colors, primary),  $lightness: 15%);
+  }
+
+  .item h2 {
+    font-size: 2rem;
+  }
+
+  .item ion-icon {
+    font-size: 2.5rem;
+  }
+
+  .item {
+    .text-input {
+      color: color($colors, light);
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .item-input-has-focus.item-input-has-value .text-input-clear-icon,
+  .input-has-focus.input-has-value .text-input-clear-icon {
+    display: none;
+  }
+}

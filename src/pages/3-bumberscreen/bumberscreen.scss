@@ -1,0 +1,73 @@
+.ios,
+.md,
+.wp {
+  page-bumberscreen {
+    .criteria {
+      border: 2px solid white;
+      border-radius: 50%;
+      box-shadow: inset 0 0 20px 0 white;
+      width: 80px;
+    }
+
+    .item-inner {
+      padding: 0;
+      border-bottom: inherit;
+    }
+
+    ion-content {
+      vertical-align: middle;
+    }
+
+    ion-content section {
+      text-align: center;
+    }
+
+    ion-content section img {
+      display: inline-block;
+    }
+
+    ion-navbar img {
+      width: 512px;
+      margin: 0 auto;
+    }
+
+    ion-content img {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    [col-6] img {
+      display: inline-block;
+      width: 512px;
+    }
+
+    ion-navbar {
+      background-color: color($colors, primary);
+      text-align: center;
+      z-index: -111;
+    }
+
+    ion-content {
+      .scroll-content {
+        background: url("../../assets/images/heineken-logo-vertical.png") no-repeat, linear-gradient(color($colors, primary) 0%, color($colors, secondary) 78%, color($colors, primary) 100%);
+        background-position: 103% 20%, center;
+        background-size: 128px 512px, cover;
+        color: color($colors, light) !important;
+        overflow-y: hidden;
+      }
+    }
+
+    [col-6] {
+      position: relative;
+    }
+
+    [ion-button] {
+      color: color($colors, light) !important;
+      font-weight: bold;
+      font-size: 200%;
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+    }
+  }
+}

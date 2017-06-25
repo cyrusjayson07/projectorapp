@@ -1,0 +1,41 @@
+  .ios,
+  .md,
+  .wp {
+    ion-header {
+      .toolbar-title {
+        font-weight: 300;
+      }
+    }
+    .scroll-content {
+      overflow-y: scroll;
+    }
+  }
+
+ion-content {
+  .scroll-content {
+    background: linear-gradient(color($colors, primary) 0%, color($colors, secondary) 78%, color($colors, primary) 100%);
+    @extend .toolbar-title;
+  }
+}
+
+ion-content h1 > strong {
+  font-size: 150%;
+}
+
+ion-content h1 {
+  font-size: 35px;
+}
+
+ion-content h1[border-bottom] {
+  border-bottom: 1px solid color($colors, light);
+  margin: 0 auto;
+  width: 70%;
+}
+
+ion-content h3 {
+  font-size: 2rem;
+}
+
+ion-content p {
+  font-size: 1.5rem;
+}

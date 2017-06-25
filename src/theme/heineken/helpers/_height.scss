@@ -1,0 +1,17 @@
+@for $count from 1 through 100 {
+  // Height
+    // ----------------------------------------
+    /*
+      Pattern:
+        <section height="[height value]"></section>
+
+      Usage:
+        <section height="80"></section>
+        <section height="50"></section>
+        <section height="20"></section>
+    */
+    .scroll-content [height="#{$count}"],
+    [height="#{$count}"] {
+      height: $height-unit * $count;
+    }
+}

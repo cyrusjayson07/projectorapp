@@ -1,0 +1,53 @@
+@for $count from 1  through 100 {
+  .ios,
+  .md,
+  .wp {
+
+    // Padding
+    // ----------------------------------------
+    /*
+      Pattern:
+        <section padding="[padding value]"></section>
+
+      Usage:
+        <section padding="80"></section>
+        <section padding="50"></section>
+        <section padding="20"></section>
+    */
+    .scroll-content [padding="#{$count}"],
+    [padding="#{$count}"] {
+      padding: $padding-unit * $count;
+    }
+
+    .scroll-content [xpadding="#{$count}"],
+    [xpadding="#{$count}"] {
+      padding-left: $padding-unit * $count;
+      padding-right: $padding-unit * $count;
+    }
+    .scroll-content [ypadding="#{$count}"],
+    [ypadding="#{$count}"] {
+      padding-bottom: $padding-unit * $count !important;
+      padding-top: $padding-unit * $count  !important;
+    }
+
+    .scroll-content [padding-top="#{$count}"],
+    [padding-top="#{$count}"] {
+      padding-top: $padding-unit * $count;
+    }
+
+    .scroll-content [padding-left="#{$count}"],
+    [padding-left="#{$count}"] {
+      padding-left: $padding-unit * $count;
+    }
+
+    .scroll-content [padding-bottom="#{$count}"],
+    [padding-bottom="#{$count}"] {
+      padding-bottom: $padding-unit * $count;
+    }
+
+    .scroll-content [padding-right="#{$count}"],
+    [padding-right="#{$count}"] {
+      padding-right: $padding-unit * $count;
+    }
+  }
+}

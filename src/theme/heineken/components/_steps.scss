@@ -1,0 +1,28 @@
+.step { position: relative; }
+
+.step__image,
+.step__detail {
+  float: left;
+}
+
+.step__number {
+  border-bottom: 1px solid #fff;
+  bottom: .5vh;
+  font-size: 80%;
+  position: relative;
+  right: .5vw;
+}
+
+.step__title { font-size: 140%; }
+
+.step__image,
+.step__number,
+.step__title,
+.step__detail{ display: inline-block; }
+
+.step__image {
+  vertical-align: top;
+  width: 5%;
+}
+
+.step__detail { width: 80%; }

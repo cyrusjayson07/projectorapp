@@ -1,0 +1,9 @@
+$text-input-placeholder-color: adjust-color(color($colors, dark), $lightness: 50%);
+
+.ios,
+.md,
+.wp {
+  .list .item-input.input-has-focus:last-child {
+    border-bottom-color: adjust-color(color($colors, dark), $lightness: 50%);
+  }
+}

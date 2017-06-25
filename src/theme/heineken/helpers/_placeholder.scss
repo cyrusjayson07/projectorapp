@@ -1,0 +1,29 @@
+@for $count from 1  through 100 {
+  // Placeholders
+  // ----------------------------------------
+  /*
+    Pattern:
+      <section placeholder="[width]"></section>
+
+    Usage:
+      <section placeholder="80"></section>
+      <section placeholder="50"></section>
+      <section placeholder="20"></section>
+  */
+  .placeholder-#{$count},
+  [placeholder="#{$count}"] {
+    background-color: transparentize(color($colors, light), 0.8);
+    width: $width-unit * $count;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+  }
+  [placeholder="#{$count}"]:before {
+    color: color($colors, light);
+    content: "Placeholder";
+    margin: 0 auto;
+    z-index: -1;
+  }
+  ion-header ion-navbar [placeholder="#{$count}"] { display: inline-block; }
+}

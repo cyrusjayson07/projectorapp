@@ -1,0 +1,8 @@
+[no-border-top] { border-top: none; }
+[no-border-bottom] { border-bottom: none; }
+
+[border-bottom]:not(h1) {
+  border-bottom: 1px solid color($colors, light);
+  margin: 2rem auto;
+  width: 60%;
+}

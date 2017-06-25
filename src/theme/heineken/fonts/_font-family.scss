@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('../../../assets/fonts/futura/Futura-Std-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+@font-face {
+  font-family: 'Futura';
+  src: url('../../../assets/fonts/futura/Futura-Std-Medium.otf');
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-ExtraBold.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-ExtraBold.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-BoldItalic.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-BoldItalic.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-BoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Bold.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Bold.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-Bold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Light.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Light.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-LightItalic.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-LightItalic.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-LightItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Heineken';
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Thin.ttf');
+  src: url('../../../assets/fonts/heineken/HEINEKEN-Core-Thin.eot') format('embedded-opentype'),
+       url('../../../assets/fonts/heineken/HEINEKEN-Core-Thin.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ios,
+.md,
+.wp {
+  .ion-app {
+    letter-spacing: 1.2px !important;
+  }
+}

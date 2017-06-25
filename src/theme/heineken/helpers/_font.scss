@@ -1,0 +1,24 @@
+@for $count from 1  through 100 {
+  // Font size
+  // ----------------------------------------
+  /*
+    Pattern:
+      <section size="[size value]"></section>
+
+    Usage:
+      <section size="80"></section>
+      <section size="50"></section>
+      <section size="20"></section>
+  */
+  .scroll-content [size="#{$count}"],
+  [size="#{$count}"] {
+    font-size: $font-unit * $count;
+  }
+}
+
+// Adds an underline to an element.
+// ----------------------------------------
+[text-underline] {
+  line-height: 1.4;
+  text-decoration: underline;
+}

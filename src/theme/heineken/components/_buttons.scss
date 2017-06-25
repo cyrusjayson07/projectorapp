@@ -1,0 +1,28 @@
+$button-padding-bottom: 16px;
+$button-padding-left: 16px;
+$button-padding-top: 16px;
+$button-padding-right: 16px;
+
+[ion-button][full] {
+  background-color: rgba(255,255,255,0.01);
+
+  border-bottom: 1px solid adjust-color(color($colors, primary),  $lightness: 15%);
+  border-top: 1px solid adjust-color(color($colors, primary),  $lightness: 15%);
+  box-shadow: none;
+
+  font-size: 200%;
+  font-weight: inherit;
+
+  padding-bottom: $button-padding-bottom;
+  padding-left: $button-padding-left;
+  padding-top: $button-padding-top;
+  padding-right: $button-padding-right;
+}
+
+.ios,
+.md,
+.wp {
+  .button {
+    height: 2em;
+  }
+}

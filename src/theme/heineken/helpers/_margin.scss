@@ -1,0 +1,53 @@
+@for $count from 1  through 100 {
+  .ios,
+  .md,
+  .wp {
+
+    // Margin
+    // ----------------------------------------
+    /*
+      Pattern:
+        <section margin="[margin value]"></section>
+
+      Usage:
+        <section margin="80"></section>
+        <section margin="50"></section>
+        <section margin="20"></section>
+    */
+    .scroll-content [margin="#{$count}"],
+    [margin="#{$count}"] {
+      margin: $margin-unit * $count;
+    }
+
+    .scroll-content [xmargin="#{$count}"],
+    [xmargin="#{$count}"] {
+      margin-left: $margin-unit * $count;
+      margin-right: $margin-unit * $count;
+    }
+    .scroll-content [ymargin="#{$count}"],
+    [ymargin="#{$count}"] {
+      margin-bottom: $margin-unit * $count !important;
+      margin-top: $margin-unit * $count  !important;
+    }
+
+    .scroll-content [margin-top="#{$count}"],
+    [margin-top="#{$count}"] {
+      margin-top: $margin-unit * $count;
+    }
+
+    .scroll-content [margin-left="#{$count}"],
+    [margin-left="#{$count}"] {
+      margin-left: $margin-unit * $count;
+    }
+
+    .scroll-content [margin-bottom="#{$count}"],
+    [margin-bottom="#{$count}"] {
+      margin-bottom: $margin-unit * $count;
+    }
+
+    .scroll-content [margin-right="#{$count}"],
+    [margin-right="#{$count}"] {
+      margin-right: $margin-unit * $count;
+    }
+  }
+}

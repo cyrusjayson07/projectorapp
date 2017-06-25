@@ -1,0 +1,12 @@
+$swiper-height: 14px;
+$swiper-width: 14px;
+
+ion-slides .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: color($colors, light);
+}
+
+ion-slides .swiper-pagination .swiper-pagination-bullet {
+  background-color: transparentize(color($colors, light), 0.2);
+  height: $swiper-height;
+  width: $swiper-width;
+}
